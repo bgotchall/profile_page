@@ -8,5 +8,7 @@ Mobile friendly.
 
 Intro, biography, CV, projects/porfolio, Blog
 
+Kinda want to do it like: https://colorlib.com/preview/#jackson
 
+for now, fake it and get something
 
