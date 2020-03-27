@@ -2,7 +2,7 @@
 
 My official Profile website to be deployed at www.bobgotchall.com.  
 
-React based brochure site with some nice styling.
+React based brochure site with some nice styling.  Material UI library.
 
 Mobile friendly.
 
