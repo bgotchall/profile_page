@@ -8,9 +8,10 @@ function ProfilePic() {
         root: {
           flexGrow: 1,
           alignItems: "flex-start",
-          border: 'black 1px solid',
+         // border: 'black 1px solid',
           borderRadius: '50%',
-          width: '150px',
+          width: '200px',
+         
         },
       }));
     

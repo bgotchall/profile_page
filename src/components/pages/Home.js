@@ -12,19 +12,19 @@ function Home() {
     root: {
       flexGrow: 1,
       alignItems: "flex-start",
-      border: 'black 1px solid',
+     // border: 'black 1px solid',
     },
     paper: {
       padding: theme.spacing(2),
       textAlign: "center",
       color: theme.palette.text.secondary,
-      border: 'black 1px solid',
+    //  border: 'black 1px solid',
     },
     mainPic: {
       height: '1000px',
       backgroundImage:  `url(${hikePic})`,
       backgroundRepeat: 'no-repeat',
-      border: 'black 1px solid',
+     // border: 'black 1px solid',
       alignItems:"flex-start",
       
     },
