@@ -52,7 +52,7 @@ function NavTabs() {
       marginRight: "10px"
     },
     name: {
-      fontSize: "22px",
+      fontSize: "32px",
       fontFamily: "Playfair Display, serif",
       marginTop: "30px"
     },
@@ -73,7 +73,7 @@ function NavTabs() {
   return (
     <div className={`${classes.root} ${classes.sidebar}`}>
       <ProfilePic />
-      <br />
+      
       <span className={classes.name}>Bob Gotchall</span>
       <br />
       <span>Engineer/Developer</span>

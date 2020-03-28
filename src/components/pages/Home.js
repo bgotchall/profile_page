@@ -23,6 +23,7 @@ function Home() {
       height: "1000px",
       backgroundImage: `url(${hikePic})`,
       backgroundRepeat: "no-repeat",
+      backgroundSize: 'cover',
       // border: 'black 1px solid',
       alignItems: "flex-start"
     },
