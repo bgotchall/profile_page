@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap" rel="stylesheet"> */
+/* for google fonts: */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Quicksand&display=swap" rel="stylesheet");
