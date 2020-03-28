@@ -7,10 +7,11 @@ function ProfilePic() {
     const useStyles = makeStyles(theme => ({
         root: {
           flexGrow: 1,
-          alignItems: "flex-start",
+          alignItems: "flex-center",
          // border: 'black 1px solid',
           borderRadius: '50%',
-          width: '200px',
+          width: '100%',
+          marginRight: '10px',
          
         },
       }));
