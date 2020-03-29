@@ -5,11 +5,12 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import NavTabs from "../NavTabs";
 import treePic from "../../assets/tree.jpg";
-import hikePic from "../../assets/hiketrail_slate.jpg";
+import hikePic from "../../assets/hiketrail_med_slate.jpg";
 import {
   FaRegEnvelope,
   FaPhone,
   FaFacebookSquare,
+  FaLinkedin,
   FaGithub,
   FaSitemap,
   FaFileWord
@@ -24,14 +25,11 @@ function Contact() {
     root: {
       flexGrow: 1,
       alignItems: "flex-start"
-      // border: 'black 1px solid',
     },
     paper: {
       padding: theme.spacing(2),
       textAlign: "center",
       color: theme.palette.text.secondary
-      //  border: 'black 1px solid',
-      // marginTop: '200px',
     },
     mainPic: {
       height: "1000px",
@@ -49,14 +47,8 @@ function Contact() {
       lineHeight: "5"
     },
     contentBox: {
-      //  height: "75%",
-      //  width: "75%",
       margin: "20%",
       paddingLeft: "20px"
-      // paddingTop: "30px"
-      // paddingBottom: "20px",
-      //border: "black 1px solid"
-      // backgroundColor: "wheat"
     },
     env: {
       paddingRight: "10px"
@@ -85,6 +77,7 @@ function Contact() {
                     (512) 576-4654{" "}
                   </span>
                   <br />
+
                   <span className={classes.line}>
                     <FaSitemap className={classes.env} />
                     <Link
@@ -101,7 +94,8 @@ function Contact() {
                     </Link>{" "}
                   </span>
                   <br />
-                  <span className={classes.line}>
+
+                    <span className={classes.line}>
                     <FaGithub className={classes.env} />
                     <a
                       href="https://github.com/bgotchall"
@@ -109,6 +103,18 @@ function Contact() {
                     >
                       {" "}
                       github.com/bgotchall
+                    </a>{" "}
+                  </span>
+                  <br />
+
+                  <span className={classes.line}>
+                    <FaLinkedin className={classes.env} />
+                    <a
+                      href="https://www.linkedin.com/in/robert-gotchall-92b01731/"
+                      style={{ textDecoration: "none", color: "black" }}
+                    >
+                      {" "}
+                      Linked In
                     </a>{" "}
                   </span>
                   <br />

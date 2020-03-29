@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import NavTabs from '../NavTabs';
-import treePic from '../../assets/tree_slate.jpg';
+import treePic from '../../assets/tree_med_slate.jpg';
 import hikePic from '../../assets/hiketrail_slate.jpg';
 
 
@@ -24,6 +24,7 @@ function About() {
       height: '1000px',
       backgroundImage:  `url(${treePic})`,
       backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
      // border: 'black 1px solid',
       alignItems:"flex-start",
       

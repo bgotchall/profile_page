@@ -4,7 +4,7 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import NavTabs from "../NavTabs";
 import treePic from "../../assets/tree.jpg";
-import hikePic from "../../assets/hiketrail_slate.jpg";
+import hikePic from "../../assets/hiketrail_med_slate.jpg";
 
 function Home() {
   const useStyles = makeStyles(theme => ({
