@@ -96,11 +96,11 @@ function NavTabs() {
         Portfolio
       </Link>
       <br />
-      <Link to="/skills" className={classes.link}>
+      {/* <Link to="/skills" className={classes.link}>
         {" "}
         Skills
       </Link>
-      <br />
+      <br /> */}
       <Link to="/contact" className={classes.link}>
         {" "}
         Contact
