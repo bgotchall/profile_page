@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import NavTabs from "../NavTabs";
-import treePic from "../../assets/tree.jpg";
+import treePic from "../../assets/tree_med_slate.jpg";
 import hikePic from "../../assets/hiketrail_med_slate.jpg";
 import {
   FaRegEnvelope,
