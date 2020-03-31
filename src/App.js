@@ -14,14 +14,14 @@ function App() {
     <>
       <Router>
         <div>
-          {/* <NavTabs /> */}
+        
           <Route exact path="/" component={Home} />
-          <Route exact path="http://www.bgotchall.com" component={Home} />
+          {/* <Route exact path="http://www.bgotchall.com" component={Home} /> */}
           <Route exact path="/about" component={About} />
-          <Route exact path="/blog" component={Blog} />
+          {/* <Route exact path="/blog" component={Blog} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/skills" component={Skills} />
-          <Route path="/contact" component={Contact} />
+          <Route path="/contact" component={Contact} /> */}
         </div>
       </Router>
     </>
