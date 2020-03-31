@@ -4,7 +4,6 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import NavTabs from "../NavTabs";
 import treePic from "../../assets/tree_med_slate.jpg";
-import hikePic from "../../assets/hiketrail_slate.jpg";
 import PortfolioThumb from "../PortfolioThumb";
 import gravityPic from "../../assets/portfolioThumbs/gravity_small.PNG";
 import minePic from "../../assets/portfolioThumbs/minesweeper_small.PNG";
