@@ -23,3 +23,9 @@ tasks
 3) go back to the experiment where I start with a basic react app ans slowly add content.  the odd thing is that the default app did not seem to work, yet the "routing study" did...
 4) modify routing study to have my content?  first pass this shows promise!
 
+3/31:  it worked.  I transferred my code from here to react_routing_study bit by bit and it works fine on heroku...
+I cleaned up this repo so it is at least back to working on local.
+Note:  there was a bizarre problem on the transferred contact page where a phantom page break kept showing up for my website
+link.  but since it was a dead link I just deleted it.  
+
+Now the question is what is the fucking diff between these repos now?
