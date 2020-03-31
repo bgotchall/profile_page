@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Home from "./components/pages/Home";
+//import Home from "./components/pages/Home";
 //import About from "./components/pages/About";
- import Blog from "./components/pages/Blog";
+ //import Blog from "./components/pages/Blog";
 // import Contact from "./components/pages/Contact";
 // import Portfolio from "./components/pages/Portfolio";
 // import Skills from "./components/pages/Skills";
@@ -12,10 +12,11 @@ import Home from "./components/pages/Home";
 function App() {
   return (
     <>
+    <p> I am an app</p>
       <Router>
         <div>
         
-          <Route exact path="/" component={Blog} />
+          {/* <Route exact path="/" component={Blog} /> */}
           {/* <Route exact path="http://www.bgotchall.com" component={Home} /> */}
           {/* <Route exact path="/about" component={About} /> */}
           {/* <Route exact path="/blog" component={Blog} />
