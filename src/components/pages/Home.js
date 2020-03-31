@@ -59,7 +59,7 @@ function Home() {
           <Grid item xs={10}>
             <Grid className={classes.mainPic} container spacing={0}>
               <Grid className={classes.contentBox} item xs={10}>
-                <h1>Hi.  I am Bob</h1>
+                <h1>Hi, I'm Bob</h1>
               </Grid>
             </Grid>
           </Grid>
